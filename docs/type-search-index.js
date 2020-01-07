@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"<Unnamed>","l":"Client"},{"p":"<Unnamed>","l":"Email"},{"p":"<Unnamed>","l":"Handler"}]
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"com.cinch.service.email","l":"Client"},{"p":"com.cinch.service.email","l":"Email"},{"p":"com.cinch.service.email","l":"Handler"}]

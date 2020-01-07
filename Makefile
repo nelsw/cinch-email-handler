@@ -6,7 +6,9 @@ ROLE =
 # A phony target is one that is not really the name of a file, but rather a sequence of commands.
 # We use this practice to avoid potential naming conflicts with files in the home environment but
 # also improve performance by telling the SHELL that we do not expect the command to create a file.
-.PHONY: clean install test invoke update create
+.PHONY: it clean install test invoke update create
+
+it: clean install
 
 clean:
 	mvn clean

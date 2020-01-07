@@ -22,7 +22,7 @@ public class Tests {
     Handler handler = new Handler();
 
     String goodRequestJson = "{ \"to\": \"cvanelswyk@cchs.com\", \"from\": \"connectedhometeam@cchs.com\", \"subject\": \"Password recovery help has arrived!\", \"body\": \"888-000\", \"bucket\": \"nelsw\", \"key\": \"email-confirmation.html\" }",
-            badRequestJson = "{ \"to\": \"cvanelswyk@cchs.com\", \"from\": \"connectedhometeam@cchs.com\", \"subject\": \"Email confirmation code has arrived!\", \"body\": \"ABWFS7QDRAE3XVJFZDOVACC5VDS3JBFFMVWWC2LMXFRW63TON5ZHMYLOMVWHG53ZNNAGO3LBNFWC4Y3PNWSWM33SMNS4FM3UO5XV6ZTBMN2G64S7OZSXE2LGNFSWJQV2MZXXEY3FMRPXOZLBNNPXAYLTON3W64TEL5ZGK43FOTBA\", \"bucket\": \"n\", \"key\": \"password-reset.html\" }",
+            badRequestJson = "{ \"to\": \"cvanelswyk@cchs.com\", \"from\": \"connectedhometeam@cchs.com\", \"subject\": \"com.cinch.service.email.Email confirmation code has arrived!\", \"body\": \"ABWFS7QDRAE3XVJFZDOVACC5VDS3JBFFMVWWC2LMXFRW63TON5ZHMYLOMVWHG53ZNNAGO3LBNFWC4Y3PNWSWM33SMNS4FM3UO5XV6ZTBMN2G64S7OZSXE2LGNFSWJQV2MZXXEY3FMRPXOZLBNNPXAYLTON3W64TEL5ZGK43FOTBA\", \"bucket\": \"n\", \"key\": \"password-reset.html\" }",
             plainEmailJson = "{ \"to\": \"cvanelswyk@cchs.com\", \"from\": \"connectedhometeam@cchs.com\", \"subject\": \"TEST SUBJECT\", \"body\": \"<h1>HELLO WORLD!</h1>\" }";
 
     @NonFinal APIGatewayProxyRequestEvent request;

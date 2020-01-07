@@ -1,8 +1,9 @@
+package com.cinch.service.email;
+
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
 import com.amazonaws.services.lambda.runtime.events.APIGatewayProxyRequestEvent;
 import com.amazonaws.services.lambda.runtime.events.APIGatewayProxyResponseEvent;
-import com.amazonaws.services.s3.model.S3Object;
 import com.amazonaws.util.StringUtils;
 import lombok.AccessLevel;
 import lombok.experimental.FieldDefaults;
@@ -13,7 +14,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Handler responsible for sending Cinch Accelerate emails.
+ * Handler responsible for sending Cinch emails.
  * See {@link Client} and {@link Email} for further details.
  * @author connorvanelswyk
  */

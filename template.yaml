@@ -1,11 +1,11 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
-Description: Cinch Accelerate Email Handler
+Description: Cinch Accelerate com.cinch.service.email.Email com.cinch.service.email.Handler
 Resources:
   emailHandler:
     Type: AWS::Serverless::Function
     Properties:
       Runtime: java8
-      Handler: Handler::handleRequest
+      Handler: com.cinch.service.email.Handler::handleRequest
       CodeUri: ./target/handler-1.0.0.jar
       Timeout: 30

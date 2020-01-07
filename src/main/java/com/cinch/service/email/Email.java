@@ -1,3 +1,5 @@
+package com.cinch.service.email;
+
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.experimental.FieldDefaults;
@@ -21,12 +23,12 @@ public class Email {
     String to;
 
     /**
-     * Email subject.
+     * com.cinch.service.email.Email subject.
      */
     String subject;
 
     /**
-     * Email body, plaint text or {@code HTML}.
+     * com.cinch.service.email.Email body, plaint text or {@code HTML}.
      */
     String body;
 
