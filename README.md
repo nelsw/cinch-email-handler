@@ -50,7 +50,7 @@ use `nmake` through Visual Studio or install `cygwin` from your favorite package
 - [Docker: Enterprise Container Platform][docker]
 - [Project Lombok][lombok]
 
-[javadoc]: <https://htmlpreview.github.io/?https://raw.githubusercontent.com/nelsw/cinch-email-handler/master/docs/package-summary.html>
+[javadoc]: <https://htmlpreview.github.io/?https://raw.githubusercontent.com/nelsw/cinch-email-handler/master/docs/com/cinch/service/email/package-summary.html>
 [uml-doc]: <https://github.com/talsma-ict/umldoclet>
 [lombok]: <https://projectlombok.org/>
 [delombok]: <https://projectlombok.org/features/delombok>
